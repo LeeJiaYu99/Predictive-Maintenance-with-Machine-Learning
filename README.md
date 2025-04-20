@@ -26,7 +26,7 @@ S. Matzka, "Explainable Artificial Intelligence for Predictive Maintenance Appli
 ### **[Exploratory Data Analysis (EDA)](https://github.com/LeeJiaYu99/Predictive-Maintenance-with-Machine-Learning/blob/master/notebooks/Exploratory%20Data%20Analysis%20(EDA).ipynb)**
 
 **Feature correlation**\
-Some features are correlated with each other and these features are potential for feture tranformation in feature engineering process.
+Some features are correlated with each other and these features are potential for feature tranformation in feature engineering process.
 ![alt text](image/feature_corr.png)
 
 **Analysis by Machine Type**\
@@ -54,10 +54,6 @@ Most of the individual features show no strong separation between failure and no
   <img src="image/dist_class.png" alt="dist_class" width="55%" />
   <img src="image/violin_class.png" alt="violin_class" width="44%" />
 </p>
-
-Joint distributions reveal clearer clustering patterns between positive (failure) and negative (non-failure) samples.
-
-For example, failures tend to occur when the product of 'Rotational Speed' and 'Torque' is high, implying interaction terms may be critical for model performance.
 
 **Joint Features Relationship**\
 Joint distributions show clearer clustering patterns between positive and negative samples. For example, failures tend to occur when the rotational speed is high and the torque is low.
